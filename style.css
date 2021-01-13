@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Work+Sans&display=swap');
+
+
+body
+{
+  display: flex;
+    justify-content: center;
+      font-family: 'Neutra', sans-serif; 
+overflow-x: hidden;
+}
+html 
+{
+  font-size: 62.5%; 
+}
+*{
+  margin: 0;
+    padding: 0;
+       box-sizing: border-box; 
+    }
+
+.home
+{
+  padding: 45px;
+    position: relative;
+      top: 40px; 
+    }
+
+h1
+{
+    font-size: 2.6rem;
+     font-family: 'Work Sans', sans-serif;
+       font-weight: lighter;
+        letter-spacing: 0.8px; 
+    }
+h2
+{
+  font-size: 8.8rem;
+   font-weight: bold;
+     color: #242424;
+       line-height: 95.5%;
+     }
+h3
+{
+   font-size: 6rem;
+    line-height: 97%;
+      color: #242424;
+       font-family: 'Neutra', sans-serif;
+     }
+
+h4
+{
+  font-size: 2.2rem;
+    font-weight: lighter;
+      color: #54655b;
+       line-height: 115%;
+        font-family: 'Work Sans',sans-serif;
+    }
+li
+{
+  font-size: 1.7rem;
+   text-decoration: none;
+    list-style-type:none;
+     justify-content:space-around;
+      display: flex;
+        flex: 1;
+         font-weight: bold;
+           padding: 1rem ;
+           font-family: 'Montserrat', sans-serif;
+}
+
+#login:hover 
+{
+  color: #4ca6ff;
+}
+
+#about:hover 
+{
+  color: #4ca6ff;
+}
+
+a
+{
+  color: Black;
+  text-decoration: none;
+   color: #3f3f3f;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+background-color: white;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+}
+#header-img
+{
+ width: 28px; 
+  }
+
+nav{
+  margin: auto;
+  width: 100%;
+  min-height: 10vh;
+  padding: 1rem 14.1rem;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+position:  fixed;
+  z-index: 2;
+  background: white;
+   font-family: 'Montserrat',sans-serif; 
+  
+  
+}
+ul
+{
+    justify-content:space-bewteen;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  position: relative;
+  left: 200px;
+
+}
+
+#bottle
+{
+
+  width: 135%;
+  flex-wrap: wrap;
+  object-fit: scale-down;
+   object-fit: contain;
+}
+.order
+{
+  
+  background: #4ca6ff;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  
+} 
+
+
+.showcase{
+ display: grid; 
+  min-height: 20vh;
+  grid-template-columns:10% repeat(3, 1fr)5%;
+    grid-template-rows: 1fr 0.75fr;
+}
+h2{
+  grid-column: 2/3;
+  align-self: center;
+  z-index: 1;
+}
+#bottle{
+  grid-row: 1/2;
+  grid-column: 3/4;
+   align-self: center; 
+  justify-self:center;
+  position: relative;
+  top: 45px;
+  left: 5px;
+   min-width: 300px;
+ display: flex;
+}
+.Info{
+   grid-column: 4/5;
+  grid-row: 2/3;
+  z-index: 1;
+  position: relative;
+  top: 25px;
+  }
+
+.features-container{
+   background:#1e2c72;
+    z-index: 2;
+   min-height: 80vh;
+  width: 100%;
+  padding: 5rem;
+ 
+}
+
+#where{
+  color: white;
+  margin: auto 10rem;
+   font-size: 4.8rem;
+letter-spacing: 2.5px;
+  word-spacing: 0.07em;
+  }
+
+#bottle2{
+  
+  width: 15%;
+ border: 2px solid #202020;
+}
+
+#video{
+display: block;
+  margin:80px auto;
+  position: relative;
+  
+  
+  }
+
+#video2{
+display: block;
+  margin:80px auto;
+  position: relative;
+  }
+
+#design{
+  color: white;
+  text-align: right;
+   margin: auto 7rem;
+  font-size: 4.8rem;
+letter-spacing: 2.5px;
+ word-spacing: 0.07em;
+}
+
+#health{
+  color: white;
+  margin: auto 10rem;
+   font-size: 4.8rem;
+  letter-spacing: 2.5px;
+  word-spacing: 0.07em;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 50px;
+  font-size: 2em;
+  font-weight: 900;
+ 
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 3px;
+  background:  black;
+  cursor: pointer;
+  width: 25%;
+  color: white;
+}
+
+.email-container{
+  min-height: 75vh;
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+   text-align: center;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.btn {
+  background: transparent;
+  width: 200px;
+  position: relative;
+  padding: 15px;
+  color: #4ca6ff;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2.6px;
+  border-radius: 4px;
+  font-weight: 520;
+  overflow: hidden;
+  border: 2px solid #4ca6ff;
+  text-decoration: none;
+  font-family: 'Neutral', sans-serif;
+  margin: 23px 0;
+}
+
+#email{
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 32px 0;
+	width: 87.5%;
+}
+
+.emailpart{
+ padding: 7rem;
+}
+
+#signup1{
+  font-size: 6.4rem;
+ 
+  font-family: 'Neutra', sans-serif;
+  }
+.card-container{
+  background-color: #e5e5e5;
+  padding: 5px;
+  margin: auto;
+  display: flex;
+  min-height: 60vh;
+  justify-content: center;
+ 
+}
+.cards{
+  width: 20%;
+background-color: #f4f4f4;
+  margin: 60px;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
+ 
+}
+.cards:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.19), 0 16px 16px rgba(0, 0, 0, 0.23);
+ background-color: #ffffff;
+  transition: .2s;
+}
+.card-img img{
+ width: 100%; 
+  border-radius: 15px;
+  
+}
+.card-title{
+  font-size: 4.5rem;
+  text-align: center;
+  color: #242424;
+}
+.card-description{
+    text-align: center;
+    font-size: 1.5rem;
+font-family: 'Work Sans', sans-serif;
+  color: #54655b;
+}
+.card-order{
+    display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 8px;
+  border: 1px solid black;
+  background-color: #c8eabc;
+    font-size: 1.5rem;
+      font-weight: 200;
+ font-family: 'Work Sans', sans-serif;
+  cursor: pointer;
+}
+.card-order:hover{
+  /* background-color:; */
+  font-weight: bold;
+transition: .2s;
+ font-size: 1.52rem; 
+  
+}
+footer
+{
+  background-color: #202020;
+  min-height: 20vh;
+  color: white;
+}
+
+.cardentrance{
+  font-size: 8.1rem;
+  margin: 10px;
+  position:  relative;
+     left: 135px;
+  letter-spacing: 1.15px;
+}
+#acelogo{
+  width: 2.54%;
+  position:  relative;
+    top: 47px;
+   left: 627px;
+   cursor: pointer;
+}
+#twitlogo{
+  width: 3.03%;
+  position:  relative;
+    top: 48px;
+   left: 494px;
+   cursor: pointer;
+}
+
+#instalogo{
+  width: 3%;
+  position:  relative;
+    top: 52px;
+   left: 755px;
+   cursor: pointer;
+}
+.blank-space{
+  min-height: 2.6vh;
+  background-color: #f0f0f0;
+}
+#fttr{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 63px;
+    margin-right: 124px;
+    font-weight: bolder;
+    font-size: 30px;
+}
